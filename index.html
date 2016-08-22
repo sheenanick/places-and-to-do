@@ -5,15 +5,57 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Template</title>
+    <title>Places</title>
   </head>
   <body>
     <div class="container">
-      <h2>Pick a destination to learn more aout it!</h2>
-      <ul>
-        <li id="tokyo">Tokyo, Japan</li>
-        <li id="dubai">Dubai, UAE</li>
-        <li id="portland">Portland, OR</li>
+      <form id ="addLocation">
+        <h2>Add a Place</h2>
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input id="location" type="text" class="form-control" placeholder="Location">
+        </div>
+        <div class="form-group">
+          <label for="landmark">Landmark</label>
+          <input id="landmark" type="text" class="form-control" placeholder="Landmark">
+        </div>
+        <div class="form-group">
+          <label for="timeOfYear">Time of Year</label>
+          <input id="timeOfYear" type="text" class="form-control" placeholder="Time of Year">
+        </div>
+        <div class="form-group">
+          <label for="notes">Notes</label>
+          <input id="notes" type="text" class="form-control" placeholder="Notes">
+        </div>
+        <button type="submit" class="btn btn-success">Add location!</button>
+      </form>
+      <h2>Pick a destination to learn more about it!</h2>
+
+      <ul id="properties">
+        <li class='place'>
+          <p class ='location'>Location: Tokyo</p>
+          <div class='hiddenPlace'>
+            <p>Landmark: Tokyo Skytree</p>
+            <p>Best time of year to visit: Spring</p>
+            <p>Notes: Tokyo is a wonderful place to visit in the Spring because of the beautiful cherry blossoms!</p>
+          </div>
+        </li>
+        <li class='place'>
+          <p class ='location'>Location: Dubai</p>
+          <div class='hiddenPlace'>
+            <p>Landmark: Burj Dubai</p>
+            <p>Best time of year to visit: Winter</p>
+            <p>Notes: Dubai is a nice place to visit when it is not 120 degrees out</p>
+          </div>
+        </li>
+        <li class='place'>
+          <p class ='location'>Location: Portland</p>
+          <div class='hiddenPlace'>
+            <p>Landmark: Voodoo Doughnuts</p>
+            <p>Best time of year to visit: Summer</p>
+            <p>Notes: Portland has a lot of bridges</p>
+          </div>
+        </li>
       </ul>
     </div>
   </body>

@@ -1,0 +1,10 @@
+.location:hover {
+  color: #0033cc;
+}
+
+.properties{
+  display: none;
+}
+.hiddenPlace{
+  display: none;
+}
