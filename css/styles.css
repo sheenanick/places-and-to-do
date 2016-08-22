@@ -1,10 +1,25 @@
-.location:hover {
+*{
+  border-radius: 5px;
+}
+li {
+  font-size: 20px;
+}
+.btn{
+  background-color: #d9ffb3;
+  border-color: #000000;
+  color: #000000;
+}
+.btn:hover{
+  background-color: #a6ff4d;
+}
+.container{
+  background-color: #d9ffb3;
+}
+.done:hover, .loc:hover {
   color: #0033cc;
+  text-decoration: underline;
+  cursor: pointer;
 }
-
-.properties{
-  display: none;
-}
-.hiddenPlace{
+.places, .hiddenPlace{
   display: none;
 }
