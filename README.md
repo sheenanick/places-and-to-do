@@ -1,6 +1,6 @@
 # Places and To Do list
 
-#### _A web page which keeps track of your most recently visited place and todo list application. 08.22.2016_
+#### _A web page which keeps track of your most recently visited places and a to do list application. 08.22.2016_
 
 #### By Sheena Nickerson and Yusuf Qedan
 
